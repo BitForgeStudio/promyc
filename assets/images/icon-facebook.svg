@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <clipPath id="badge-clip">
+      <rect x="32" y="32" width="448" height="448" rx="80" ry="80" />
+    </clipPath>
+  </defs>
+
+  <!-- White Rounded Square Badge Base -->
+  <rect x="32" y="32" width="448" height="448" rx="80" ry="80" fill="#FFFFFF" />
+
+  <!-- Facebook "f" Symbol Clipped to Badge Bounds -->
+  <g clip-path="url(#badge-clip)">
+    <path d="M350 480 V298.5 h60.8 l9.1-70.6 h-69.9 v-45.1 c0-20.4 5.7-34.4 35-34.4 h37.4 V85.3 c-6.5-0.9-28.7-2.8-54.6-2.8 -54 0-91 33-91 93.5 v51.9 h-61 v70.6 h61 V480 Z" fill="#1A1A1A" />
+  </g>
+</svg>
